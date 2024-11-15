@@ -1,0 +1,13 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Node.js Express app with PM2 and monitoring",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "prom-client": "^15.1.3"
+  }
+}
